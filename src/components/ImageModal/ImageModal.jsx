@@ -2,7 +2,7 @@ import Modal from 'react-modal';
 import css from './ImageModal.module.css';
 
 function ImageModal({ image, modalIsOpen, closeModal, onAfterClose }) {
-  Modal.setAppElement('#modal');
+  Modal.setAppElement('#root');
 
   return (
     <Modal
